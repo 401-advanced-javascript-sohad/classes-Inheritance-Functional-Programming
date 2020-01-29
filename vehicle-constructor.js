@@ -13,7 +13,7 @@ Vehicle.prototype.stop = () => {
   return 'Stopping';
 };
 
-// Car Constructor
+//////////////////////////////////////////////////////////////// Car Constructor
 const Car = function(name) {
   Vehicle.call(this, name, 4);
 };
